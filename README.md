@@ -1,7 +1,7 @@
 # local-library
 
-This is Node.js / Express / MongoDB project.
+This is Node.js / Express / MongoDB project. (For the odin project)
 
-Demo　site here:⏬
+Demo-Site here:⏬
 
 https://peaceful-ocean-27914.herokuapp.com/catalog
