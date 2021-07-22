@@ -28,7 +28,7 @@ AuthorSchema.virtual('name').get(function () {
 
 // Virtual for author's lifespan
 AuthorSchema.virtual('lifespan').get(function () {
-  const lifetime_string = '';
+  let lifetime_string = '';
   if (this.date_of_birth) {
     lifetime_string = DateTime.fromJSDate(this.date_of_birth).toLocaleString(DateTime.DATE_MED);
   }
